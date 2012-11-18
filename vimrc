@@ -7,15 +7,17 @@
 "         http://stackoverflow.com/questions/1764263/what-is-the-leader-in-a-vimrc-file
 "
 " Hotkey:
-"     1. <C+Space> or <C+x><C+o> to show omnicomplete option list.
+"     1. <C+Space> or <C+x><C+o> to show omnicomplete option list
 "     2. <,r> to RUN.
 "     3. <,e> to close current window; <,E> to close all windows
-"     4. <C+a> to sell all.
+"     4. <C+a> to sell all
 "     5. <,n> to prev tab; <,m> to next tab
 "     6. <C+z> to save 
-"     7. <F2> to open NERD tree, <Shift+t> to open some file in a new tab.
+"     7. <F2> to open NERD tree, <Shift+t> to open some file in a new tab
 "     8. <F3> to toggle auto-indenting for code paste
 "     9. <F12> to open calendar
+"    10. <,g> to go to definition
+"    11. <zm> to fold all; <zr> to unfold all; <za> to fold/unfold one
 
 
 " Pathogen load
@@ -58,7 +60,7 @@ scriptencoding utf-8
 
 
 " Showing line numbers and length
-"" set number  " show line numbers
+set number  " show line numbers
 set tw=79   " width of document (used by gd)
 set nowrap  " don't automatically wrap on load
 set fo-=t   " don't automatically wrap text when typing
