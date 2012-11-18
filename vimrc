@@ -7,13 +7,13 @@
 "         http://stackoverflow.com/questions/1764263/what-is-the-leader-in-a-vimrc-file
 "
 " Hotkey:
-"     1. <C+x><C+o> to show omnicomplete option list.
+"     1. <C+Space> or <C+x><C+o> to show omnicomplete option list.
 "     2. <,r> to RUN.
 "     3. <,e> to close current window; <,E> to close all windows
 "     4. <C+a> to sell all.
 "     5. <,n> to prev tab; <,m> to next tab
 "     6. <C+z> to save 
-"     7. <F2> to open NERD tree
+"     7. <F2> to open NERD tree, <Shift+t> to open some file in a new tab.
 "     8. <F3> to toggle auto-indenting for code paste
 "     9. <F12> to open calendar
 
@@ -161,10 +161,18 @@ let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
 let g:NERDTreeWinSize=30
 
+"let NERDTreeQuitOnOpen=1
+
 
 " ============================================================================
 " Python IDE Setup
 " ============================================================================
+
+" Settings for vim-powerline
+" cd ~/.vim/bundle
+" git clone git://github.com/Lokaltog/vim-powerline.git
+set laststatus=2
+
 
 " Better navigating through omnicomplete option list
 " See http://stackoverflow.com/questions/2170023/how-to-map-keys-for-popup-menu-in-vim
